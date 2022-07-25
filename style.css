@@ -1,0 +1,22 @@
+:root{
+  --background-color: #FEEAE9;
+  --primary-color: #FF589B;
+  --secondary-color: #FF136F;
+}
+.carousel-bg-color{
+  background-color: var(--background-color);
+}
+.carousel-padding{
+  padding: 3.125rem 120px;
+}
+.carousel-price-color{
+  color: var(--secondary-color);
+}
+.btn-color{
+  background: linear-gradient(180deg, var(--primary-color), var(--secondary-color));
+  border: none;
+  transition: background 0.3s;
+}
+.btn-color:hover{
+  background: linear-gradient(180deg, var(--secondary-color), var(--primary-color));
+}
