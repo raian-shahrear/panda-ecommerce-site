@@ -3,6 +3,9 @@
   --primary-color: #FF589B;
   --secondary-color: #FF136F;
 }
+.carousel-m-top{
+  margin-top: 6rem;
+}
 .carousel-bg-color{
   background-color: var(--background-color);
 }
