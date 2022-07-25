@@ -15,8 +15,40 @@
 .btn-color{
   background: linear-gradient(180deg, var(--primary-color), var(--secondary-color));
   border: none;
-  transition: background 0.3s;
+  transition: all 0.3s;
 }
 .btn-color:hover{
   background: linear-gradient(180deg, var(--secondary-color), var(--primary-color));
+}
+
+.bg-color-watch{
+  background: linear-gradient(150deg, #FF9C35, #FFD019);
+}
+.bg-color-bag{
+  background: linear-gradient(180deg, var(--primary-color), var(--secondary-color));
+}
+.bg-color-shoes{
+  background: linear-gradient(170deg, #4289FF, #3F07F8);
+}
+
+.display{
+  background-color: #F4F4F4;
+  padding: 2.5rem 0 6.25rem;
+}
+.display-items a{
+  text-decoration: none;
+  color: #FF9D00;
+  font-weight: 500;
+  font-size: 1.25em;
+}
+
+.subscribe{
+  background-color: #FFF2F1;
+  padding: 6.25rem 0;
+  margin: 4.375rem 0;
+  border-radius: 10px;
+}
+.subscribe h3, p{
+  text-align: center;
+  font-weight: 600;
 }
